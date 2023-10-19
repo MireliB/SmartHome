@@ -1,0 +1,65 @@
+.lampModeControl {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.lampModeControl h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+
+}
+
+.lampModeControl button {
+  background-color: #07689F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 5px;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.lampModeControl button {
+  transition: background-color 0.3s ease;
+}
+
+.lampModeControl button:hover {
+  background-color: #A2D5F2;
+}
+
+
+.lampModeControl p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.lampModeControl .input {
+  width: 130px;
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+
+.lampModeControl button:hover {
+  background-color: #67c9d6;
+}
+
+.lampModeControl button:last-child {
+  background-color: #f44336;
+}
+
+.lampModeControl button:last-child:hover {
+  background-color: #d32f2f;
+}

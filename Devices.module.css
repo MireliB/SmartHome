@@ -1,0 +1,32 @@
+/* Devices.module.css */
+
+.devicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.device {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.device:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.device:active {
+  transform: scale(0.95);
+}

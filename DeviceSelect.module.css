@@ -1,0 +1,29 @@
+/* DeviceSelect.module.css */
+
+.select {
+    width: 15%;
+    padding: 8px;
+    font-size: 1em;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .option {
+    font-size: 1em;
+  }
+  
+  .deviceBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .deviceBtn:hover {
+    background-color: #FEC93B;
+  }

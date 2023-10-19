@@ -1,0 +1,76 @@
+.waterModeControl {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .waterModeControl h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .waterModeControl .toggle-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .waterModeControl .toggle-label {
+    font-size: 0.9em;
+    margin-right: 10px;
+  }
+  
+  .waterModeControl .toggle-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .waterModeControl .toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .waterModeControl .toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .waterModeControl button {
+    background-color: #07689F;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .waterModeControl button:hover {
+    background-color: #A2D5F2;
+  }
+  
+  
